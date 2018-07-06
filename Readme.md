@@ -8,4 +8,4 @@
 
 ##### Welcome to my GitHub Page/Portfolio :)
 
-##### Press [this](https://github.com/lakshyaranwan) to view the rest of my github repositories
+##### Press [this](https://github.com/lakshyaranwan?tab=repositories) to view the rest of my github repositories
