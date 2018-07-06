@@ -4,8 +4,7 @@
 
 # <hr>
 
-##### Lakshya Ranwan
-<hr>
+### Lakshya Ranwan
 
 ##### Welcome to my GitHub Page/Portfolio :)
 
