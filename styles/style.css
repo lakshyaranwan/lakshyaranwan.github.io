@@ -1,0 +1,474 @@
+html,body{
+  padding:0px;
+  margin:0px;
+}
+
+.intro{
+  position:absolute;
+  z-index: 10;
+  text-align: center;
+  background-image:url("../images/bg.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  height:100vh;
+  padding:0.01vh;
+  width:100vw;
+}
+
+.introTitle{
+  cursor: pointer;
+  text-shadow: 10px 10px 20px rgba(100,100,100,0.2);
+  position:relative;
+  left:50%;
+  transform: translate(-50%,0);
+  width:30vmax;
+  font-size:4vmax;
+  color:#11273a;
+  margin-top:40vh;
+}
+.introDesc{
+  cursor: pointer;
+  text-shadow: 10px 10px 20px rgba(100,100,100,0.2);
+  font-size: 1.5vmax;
+  margin-top:0px;
+}
+.main{
+  display:none;
+  z-index:9;
+  height:400vh;
+}
+.navbar{
+  box-shadow: 0px 0px 10px rgba(100,100,100,0.5);
+  background:white;
+  position:fixed;
+  width:100vw;
+  padding:0px;
+  z-index: 9;
+}
+.navbarElement{
+  cursor: pointer;
+  transition:0.8s;
+  position:absolute;
+  height:100%;
+  padding:1vw ;
+  margin-right:0px;
+}
+.navbarText{
+  margin:0px;
+  text-align: center;
+}
+.navbarElement:hover{
+  transition:0.5s;
+  background : #e5e5e5;
+}
+.first{
+  height:100vh;
+  background-image:url("../images/bg1.jpg");
+  background-size: cover;
+}
+.firstTitle{
+  font-family:monospace;
+  position:relative;
+  left:50vw;
+  transform: translate(-50%,0);
+  width:max-content;
+  top:45vh;
+}
+.firstTitle2{
+  position:relative;
+  left:50vw;
+  transform: translate(-50%,0);
+  width:max-content;
+  top:45vh;
+}
+.second{
+  height:100vh;
+  background-size: cover;
+}
+.secondTitle{
+  color:black;
+  position:relative;
+  text-align: center;
+}
+.secondBar{
+  position: relative;
+  top:10vh;
+  height:35vh;
+  width:100vw;
+  background:#ededed;
+  max-width: 100%;
+}
+.secondBarDesc{
+  position: relative;
+  font-weight: lighter;
+  top:50%;
+  width:90vw;
+  left:50%;
+  transform:translate(-50%,0);
+  text-align: center;
+}
+.secondBarTexts{
+  position: relative;
+  top: 50%;
+  transform: translate(0,-50%);
+}
+.secondBar2{
+  position: relative;
+  top:10vh;
+  width:99vw;
+}
+.github{
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  top:1vh;
+  left:33%;
+  transform: translate(-50%,0);
+  background: url(../images/icons/github.png);
+  background-size: cover;
+  border:solid;
+  border-color: rgba(240,240,240,0.5);
+  border-radius: 1vw;
+}
+.hoverOpacity{
+  opacity: 0.7;
+}
+.codechef{
+  cursor: pointer;
+  position: relative;
+  display:inline-block;
+  top:1vh;
+  left:50%;
+  background: url(../images/icons/codechef.jpeg);
+  background-size: cover;
+  border:solid;
+  border-color: rgba(240,240,240,0.5);
+  border-radius: 1vw;
+}
+.secondBar3{
+  position:relative;
+  top:15vh;
+  height:25.2vh;
+}
+.secondBar3Text{
+  text-align: center;
+}
+.dotahumor{
+  cursor: pointer;
+  position:relative;
+  left:0;
+  background: url(../images/icons/dotahumor.png);
+  background-size: cover;
+}
+.third{
+  height:100vh;
+  background: url("../images/bg5.jpg");
+  background-size: cover;
+}
+.thirdTitle{
+  color:black;
+  position:relative;
+  text-align: center;
+}
+.thirdTexts{
+  position: relative;
+  top:15vmax;
+  width: 99vw;
+  height: 20vh;
+  background:none;
+}
+.thirdTextsChild{
+  padding:10px;
+  position: relative;
+  top:50%;
+  transform: translate(0,-50%);
+}
+.thirdDesc{
+  text-align: center;
+  font-weight: lighter;
+}
+.fourth{
+  height:70vh;
+  background:white;
+}
+.fourthTitle{
+  position:relative;
+  text-align: center;
+}
+.fourthDesc{
+  position: relative;
+  top:10vh;
+  text-align: center;
+  font-weight: lighter;
+}
+
+
+
+@media only screen and (min-width: 0px) {
+  .navbar{
+    height:8vw;
+  }
+  .navbarElement1{
+    left:0px;
+    width:20vw;
+  }
+  .navbarElement2{
+    left:20vw;
+    width:20vw;
+  }
+  .navbarElement3{
+    left:40vw;
+    width:20vw;
+  }
+  .navbarElement4{
+    left:60vw;
+    width:20vw;
+  }
+  .navbarText{
+    font-size: 4vw;
+  }
+  .firstTitle{
+    font-size: 4vw;
+  }
+  .firstTitle2{
+    font-size: 5vw;
+  }
+  .secondTitle{
+    font-size: 5vw;
+    top:20px;
+  }
+  .secondBarDesc{
+    font-size: 3vw;
+  }
+  .github{
+    width:14vw;
+    height:14vw;
+  }
+  .codechef{
+    width:14vw;
+    height:14vw;
+  }
+  .secondBar3Text{
+  font-size: 5vw;
+  }
+  .dotahumor{
+    width:14vw;
+    height:14vw;
+  }
+  .thirdTitle{
+    font-size: 5vw;
+    top:10px;
+  }
+  .thirdDesc{
+    font-size: 3vw;
+  }
+  .fourthTitle{
+    font-size: 5vw;
+    top:10px;
+  }
+  .fourthDesc{
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .navbar{
+    height:5vw;
+  }
+  .navbarElement1{
+    left:0px;
+    width:20vw;
+  }
+  .navbarElement2{
+    left:20vw;
+    width:20vw;
+  }
+  .navbarElement3{
+    left:40vw;
+    width:20vw;
+  }
+  .navbarElement4{
+    left:60vw;
+    width:20vw;
+  }
+  .navbarText{
+    font-size: 2vw;
+  }
+  .firstTitle{
+    font-size: 2vw;
+  }
+  .firstTitle2{
+    font-size: 3vw;
+  }
+  .secondTitle{
+    font-size: 3vw;
+    top:20px;
+  }
+  .secondBarDesc{
+    font-size: 2vw;
+  }
+  .github{
+    width:10vw;
+    height:10vw;
+  }
+  .codechef{
+    width:10vw;
+    height:10vw;
+  }
+  .secondBar3Text{
+    font-size: 3vw;
+  }
+  .dotahumor{
+    width:10vw;
+    height:10vw;
+  }
+  .thirdTitle{
+    font-size: 3vw;
+    top:10px;
+  }
+  .thirdDesc{
+    font-size: 2vw;
+  }
+  .fourthTitle{
+    font-size: 3vw;
+    top:10px;
+  }
+  .fourthDesc{
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .navbar{
+    height:4vw;
+  }
+  .navbarElement1{
+    left:0px;
+    width:10vw;
+  }
+  .navbarElement2{
+    left:10vw;
+    width:10vw;
+  }
+  .navbarElement3{
+    left:20vw;
+    width:10vw;
+  }
+  .navbarElement4{
+    left:30vw;
+    width:10vw;
+  }
+  .navbarText{
+    font-size: 1.5vw;
+  }
+  .firstTitle{
+    font-size: 2vw;
+  }
+  .firstTitle2{
+    font-size: 2.5vw;
+  }
+  .secondTitle{
+    font-size: 2.5vw;
+    top:30px;
+  }
+  .secondBarDesc{
+    font-size: 2vw;
+  }
+  .github{
+    width:10vw;
+    height:10vw;
+  }
+  .codechef{
+    width:10vw;
+    height:10vw;
+  }
+  .secondBar3Text{
+    font-size: 2.5vw;
+  }
+  .dotahumor{
+    width:10vw;
+    height:10vw;
+  }
+  .thirdTitle{
+    font-size: 2.5vw;
+    top:20px;
+  }
+  .thirdDesc{
+    font-size: 2vw;
+  }
+  .fourthTitle{
+    font-size: 2.5vw;
+    top:20px;
+  }
+  .fourthDesc{
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (min-width: 1330px) {
+  .navbar{
+    height:3vw;
+  }
+  .navbarElement1{
+    left:0px;
+    width:10vw;
+  }
+  .navbarElement2{
+    left:10vw;
+    width:10vw;
+  }
+  .navbarElement3{
+    left:20vw;
+    width:10vw;
+  }
+  .navbarElement4{
+    left:30vw;
+    width:10vw;
+  }
+  .navbarText{
+    font-size: 1vw;
+  }
+  .firstTitle{
+    font-size: 28px;
+  }
+  .firstTitle2{
+    font-size:32px;
+  }
+  .secondTitle{
+    font-size: 32px;
+    top:50px;
+  }
+  .secondBarDesc{
+    font-size: 28px;
+  }
+  .github{
+    width:10vw;
+    height:10vw;
+  }
+  .codechef{
+    width:10vw;
+    height:10vw;
+  }
+  .secondBar3Text{
+    font-size: 32px;
+  }
+  .dotahumor{
+    width:10vw;
+    height:10vw;
+  }
+  .thirdTitle{
+    font-size: 32px;
+    top:40px;
+  }
+  .thirdDesc{
+    font-size: 28px;
+  }
+  .fourthTitle{
+    font-size: 32px;
+    top:40px;
+  }
+  .fourthDesc{
+    font-size: 28px;
+  }
+}
