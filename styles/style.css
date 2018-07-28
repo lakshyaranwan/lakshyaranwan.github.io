@@ -33,6 +33,12 @@ html,body{
   font-size: 1.5vmax;
   margin-top:0px;
 }
+.introDesc2{
+  cursor: pointer;
+  text-shadow: 10px 10px 20px rgba(100,100,100,0.2);
+  font-size: 0.9vmax;
+  margin-top:0px;
+}
 .main{
   display:none;
   z-index:9;
